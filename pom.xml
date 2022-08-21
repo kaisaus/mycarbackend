@@ -89,6 +89,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <executable>true</executable>
+                    <mainClass>com.packt.cardatabase.web.CardatabaseApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
