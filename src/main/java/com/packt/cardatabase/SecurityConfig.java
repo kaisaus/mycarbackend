@@ -66,7 +66,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         config.setAllowedOrigins(Arrays.asList("*"));
         config.setAllowedMethods(Arrays.asList("*"));
         config.setAllowedHeaders(Arrays.asList("*"));
-        config.setAllowedOrigins(Arrays.asList("http://localhost:3000")); // define the client origins
+        config.setAllowedOrigins(Arrays.asList("http://localhost:3000", "https://master.d2rqw35t16tpj5.amplifyapp.com")); // define the client origins
         config.setAllowCredentials(false);
         config.applyPermitDefaultValues();
         
